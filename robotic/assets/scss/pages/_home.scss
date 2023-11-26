@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* Navbar düzenlemeleri */
+header {
+    background-color: #ac94ff;
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* Navbar'ı sağdan başlatmak için */
+    }
+
+    nav {
+        width: 70%; /* Navbar'ın genişliği, ihtiyaca bağlı olarak ayarlanabilir */
+
+        .navbar-nav {
+            .nav-item {
+                a {
+                    font-size: 18px;
+                    font-family: "Poppins", sans-serif;
+                    color: white;
+                    transition: color 0.3s;
+
+                    &:hover {
+                        color: #8a90ff;
+                    }
+                }
+
+                .dropdown-toggle {
+                    &:hover {
+                        color: #8a90ff;
+                    }
+                }
+
+                .drop2 {
+                    a {
+                        color: black;
+
+                        &:hover {
+                            color: #8a90ff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+    
+}
+#improved {
+    background-image: url(/assets/img/banner-bg\ \(1\).jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        .row {
+            height: 590px;
+            display: flex;
+            align-items: center;
+          flex-wrap: wrap;
+
+            .img1 {
+                img {
+                    box-sizing: border-box;
+                    width: 80%;
+                    height: auto;
+                    
+                }
+            }
+            .view {
+             
+                h1 {
+                    margin-top: 80px;
+                    font-size: 58px;
+                    color: white;
+                    
+                }
+                .view-btn {
+                    background: #fff;
+                    border-radius: 0;
+                    color: #222;
+                    padding-left: 10px;
+                    padding: 10px;
+                    border: 1px solid white;
+                    font-weight: 500;
+                    &:hover {
+                        background-color: transparent !important;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+#featured{
+    margin: auto;
+    background-color: rgb(235, 234, 234);
+    box-sizing: border-box;
+    padding: 120px;
+   
+    .container{
+        .extremely{
+            .product{
+                padding: 10px;
+            }
+        }
+        .row{
+            .featrobot{
+            text-align: center;
+            }
+            .product{
+                text-align: center;
+                .product-detal{
+                    .product-img{
+                        
+                        padding: 40px;
+                        background-color: white;
+                    }
+                    .details{
+                        background-color: #dce3ef;
+                        padding: 20px;
+                        h4{
+                            padding: 10px;
+                        }
+                        .btn{
+                            font-weight: 500;
+                        align-items: center;
+                            justify-content: center;
+                           background-color: white;
+                    border-radius: 0;
+                    color:black;
+                    padding-left: 10px;
+                    padding: 10px;
+                    border: 1px solid white;
+                 
+                    &:hover {
+                        background: transparent;
+                        color: white;
+                        border-color: #8a90ff;
+                        background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+                    }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#globally{
+    width: 100%;
+    height: auto;
+    .container{
+        .row{
+            align-items: center;
+            .home-about-right{
+            .img{
+                width: 100%;
+                margin-left: auto;
+            }
+        }   
+            
+        }
+    }
+    
+}
